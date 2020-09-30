@@ -23,6 +23,10 @@ h2{
     font-size: 22px;
     color: #F8463F;
     text-shadow: 4px 4px 0px rgba(255, 255, 255, 1);
+
+    border:17px solid;
+    border-image: 10 repeating-linear-gradient(45deg, #F8463F 20px, #F8463F 30px);
+    border-image-slice: 100%;
 }
 
 .row{
@@ -40,21 +44,34 @@ span{
 input[type="text"]{
     margin-left: 8px;
     border-radius: 12px;
-    padding: 5px;
+    color: white;
+}
+input[type="text"]::placeholder{
+    color: white;
+    font-size: 14px;
 }
 
 .inp-1{
     width: 263px;
+    padding: 5px;
     background-color: rgba(170, 252, 255, 0.712);
     border: 2px solid #F8463F;
 }
 .inp-2{
     width: 212px;
+    padding: 5px;
     background-color: rgba(170, 252, 255, 0.712);
     border: 2px solid #F8463F;
 }
 .inp-3{
+    padding: 5px;
     width: 325px;
+    
+    border: 2px solid rgb(170, 252, 255);
+    background-color: #F8463F;
+}
+.inp-4{
+    padding: 10px 20px;
     border: 2px solid rgb(170, 252, 255);
     background-color: #F8463F;
 }
@@ -66,5 +83,39 @@ input[type="number"]{
     color: blue;
     text-align: center;
     width: 70px;
-    padding: 3px 0;
+}
+
+select{
+    padding: 4px 0 ; 
+    background-color: rgba(170, 252, 255, 0.712);
+}
+
+textarea{
+    background-color: rgba(170, 252, 255, 0.712);
+    border-radius: 20px;
+
+    -webkit-box-shadow: 6px 7px 7px 0px rgba(248,70,63,1);
+    -moz-box-shadow: 6px 7px 7px 0px rgba(248,70,63,1);
+    box-shadow: 6px 7px 7px 0px rgba(248,70,63,1);
+}
+
+.button-div{
+    margin-left: 50px;
+}
+.subscribe-button, .clear-button{
+    background-color: rgba(170, 252, 255, 0.712);
+    border: 3px solid #F8463F;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.subscribe-button span{
+    color: #e00000f6;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.clear-button span{
+    color: #F8463F;
+    font-weight: 600;
+    font-size: 18px;
 }

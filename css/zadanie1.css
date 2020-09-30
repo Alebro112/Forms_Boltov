@@ -1,0 +1,82 @@
+form{
+    overflow: hidden;
+    background-color: whitesmoke;
+    border: 2px dotted gray;
+    margin: 10px;
+    padding: 10px 0px 7px 30px;
+    width: 600px;
+}
+
+.row{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+h3{
+    color: purple;
+    height: 5px; 
+    float: left;
+}
+
+input[type="text"] {
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 240px;
+    height: 30px;
+    float: left;
+    background-color: lightcyan;
+    color: rosybrown;
+    border-width:2px 2px 2px 2px;
+    border-style:solid solid solid solid;
+    border-color:#000000 #000000 #4c00ae #000000;
+    text-align: center;
+}
+
+input[type="text"]::placeholder{
+    color: rosybrown;
+}
+
+input[type="radio"]{
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+
+select{
+    margin-left: 8px;
+    margin-top: 15px;
+    width: 200px;
+    background-color: bisque;
+}
+
+textarea{
+    background-color: bisque;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+input[type="file"]{
+    background-color: bisque;
+    border: 1px solid #000;
+    margin-left: 8px;
+}
+
+button{
+    margin-top: 12px;
+    margin-left: 8px;
+    width: 140px;
+    height: 30px;
+    background-color: #9b30ff;
+    color: white;
+}
+
+.placeMe-button{
+    background-color: #4b0082;
+    border-radius: 20px;
+    font-weight: 900;
+    border-width:2px;
+    border-style:dashed;
+    border-color:#ff00f4;
+}

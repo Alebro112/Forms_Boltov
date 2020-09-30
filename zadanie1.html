@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/zadanie1.css">
+    <title>Zadanie 1</title>
+</head>
+<body>
+    <form>
+        <div class="row">         
+            <h3>Имя: </h3>
+            <input type="text" placeholder="Введите ваше имя">
+        </div>
+        <div class="row">         
+            <h3>Фамилия: </h3>
+            <input type="text" placeholder="Введите ваше имя">
+        </div>
+
+        <h3>Ваш пол: </h3>
+
+        <div class="row">
+            <input type="radio" name="sex" id="1"><span>Мужской</span>
+            <input type="radio" name="sex" id="2"><span>Мужской</span>
+        </div>
+
+        <h3>Ваш возраст: </h3>
+        
+        <div class="row">
+            
+            <select>
+                <option value="1">18-25</option>
+                <option value="2">25-30</option>
+                <option value="3">30-35</option>
+            </select>
+        </div>
+
+        <h3>Ваше оброзование: </h3>
+
+        <div class="row">
+            <input type="radio" name="eduction" id="1"><span>Основное</span>
+            <input type="radio" name="eduction" id="2"><span>Основное</span>
+            <input type="radio" name="eduction" id="3"><span>Средне-специальное</span>
+            <input type="radio" name="eduction" id="4"><span>Высшее</span>
+        </div>
+
+        <h3>Вы согласны с нашими правилами?</h3>
+
+        <div class="row">
+            <span>Да</span><input type="radio" name="conset" id="1">
+            <span>Нет</span><input type="radio" name="conset" id="2">
+            <br>
+        </div>
+        <div class="row">
+            <span>Коментарий:</span>
+            <br>
+            <textarea name="Напиши свой коментайрий" cols="50" rows="6" placeholder="Напиши свой коментарий"></textarea>
+        </div>
+
+        <div class="row">
+            <span>Выберите файл для загрузки: </span>
+            <input type="file" name="" id="">
+        </div>
+
+        <div class="row">
+            <button>Начать</button>
+            <br>
+            <button>Очистить</button>
+            <br>
+            <button>Отправить</button>
+            <button class="placeMe-button">Нажми меня</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/zadanie_anketa.css">
+    <title>Анкета</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>АНКЕТА ПОСЕТИТЕЛЯ РЕСТОРАНА</h1>
+        </form>
+    
+        <fieldset class="contact">
+            <legend>Контактные данные</legend>
+            <div class="content">
+                <input type="text" placeholder="Введите Ваше имя" class="cyan contact-input">
+                <span class="span">Имя</span>
+                
+                <input type="text" placeholder="Введите Ваше имя" class="cyan contact-input">
+                <span class="span">Фамилия</span>   
+
+                <input type="text" placeholder="Введите Ваше имя" class="red contact-input">
+                <span class="span">E-mail</span>   
+
+                <input type="text" placeholder="Введите Ваше имя" class="cyan contact-input">
+                <span class="span">Телефон</span>   
+            </div>
+        </fieldset>
+
+        <fieldset class="personal-info">
+            <legend>Персональная информация</legend>
+            <div class="content">
+                <div class="row">
+                    <span class="span">Ваш пол: </span>
+                    <input type="radio" name="sex"><span class="radio-span">Женский</span>
+                    <input type="radio" name="sex"><span class="radio-span">Мужской</span>
+                </div>
+
+                <div class="block">
+                    <span class="span">Возраст</span>
+                    <input type="text" class="cyan age-input gray-shadow">
+                </div>
+
+                <div class="row">
+                    <span class="span">Ваш любимый цвет?</span>
+                    <input type="color" name="" id="">
+                </div>
+
+
+                <div class="row">
+                    <span class="span">Любимая кухня</span>
+                    <select>
+                        <option value="0">Выберите из списка</option>
+                        <option value="1">Китайская</option>
+                        <option value="2">Итальянская</option>
+                        <option value="3">Франзуская</option>
+                        <option value="4">Японская</option>
+                        <option value="5">Тайская</option>
+                    </select><br>
+
+                    <span class="span">Каке блюда Вы хотели видеть в меню?</span>
+                </div>
+
+                <div class="row">
+                    <textarea class="gray-shadow" placeholder="Напишите свои предложения"></textarea>
+                </div>
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>

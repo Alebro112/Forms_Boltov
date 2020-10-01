@@ -1,0 +1,135 @@
+main{
+    width: calc(1920px/1.5);
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+form{
+    overflow: hidden;
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-family: tahoma;
+    text-align: center;
+    margin-top: 60px;
+    background-color: lightyellow;
+    font-size: 48px;
+    color: steelblue;
+}
+
+fieldset{
+    border: 5px solid rgb(37, 36, 36);
+    border-radius: 12px;
+    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+legend{
+    margin-left: 40px;
+    font-family: tahoma;
+    font-weight: 900;
+    padding: 5px 10px;
+    font-size: 35px;
+    background-color: lightseagreen;
+    color: white;
+    border: 8px solid darkslategray;
+    border-radius: 10px;
+}
+
+.contact .content *{
+    float: right;
+}
+
+.contact .content{
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+.contact-input{
+    padding: 14px 0;
+    width: 450px;
+    font-size: 22px;
+    border: 3px solid darkblue;
+    margin-bottom: 20px;
+}
+
+.age-input{
+    padding: 5px 0;
+    width: 200px;
+    font-size: 22px;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.gray-shadow{
+    -webkit-box-shadow: 0px 0px 0px 8px rgba(186,186,186,0.5);
+    -moz-box-shadow: 0px 0px 0px 8px rgba(186,186,186,0.5);
+    box-shadow: 0px 0px 0px 8px rgba(186,186,186,0.5);
+}
+
+.cyan{
+    background-color: lightseagreen;
+}
+.red{
+    background-color: #d88282;
+}
+
+.span{
+    color: darkblue;
+    font-family: tahoma;
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+
+.personal-info .content{
+    margin-top: 40px;
+    margin-left: 69px;
+}
+
+
+input[type="radio"]{
+    transform: scale(1.5);
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.radio-span{
+    height: 0px;
+    font-family: tahoma;
+    color: black;
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+input[type="color"]{
+    background-color: lightyellow;
+    width: 60px;
+    height: 30px;
+    padding: 8px 60px 8px 0;
+}
+
+select{
+    font-size: 18px;
+    padding: 5px 0;
+    width: 220px;
+}
+
+textarea{
+    font-size: 20px;
+    background-color: lightcyan;
+    border-radius: 5px;
+    width: 598px;
+    height: 107px;
+}
+

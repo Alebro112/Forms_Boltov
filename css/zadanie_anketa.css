@@ -1,15 +1,18 @@
 main{
-    width: calc(1920px/1.5);
+    background-image: url(../img/bg-1.jpg);
+    font-family: tahoma;
+    width: calc(1920px/2);
     margin: 0 auto;
-    border: 1px solid #000;
+    border: 3px dotted lightgray;
 }
 form{
+    padding: 5px;
     overflow: hidden;
 }
 
 .row{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 h1{
@@ -22,10 +25,11 @@ h1{
 }
 
 fieldset{
+    background-color: #FFFAFA;
+    padding: 0;
     border: 5px solid rgb(37, 36, 36);
     border-radius: 12px;
-    height: 500px;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -67,6 +71,20 @@ legend{
     border-radius: 10px;
     margin-bottom: 20px;
 
+}
+
+.date-input{
+    color: white;
+    padding: 10px 0;
+    width: 350px;
+    font-size: 22px;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.date-input::placeholder{
+    color: white;
 }
 
 .gray-shadow{
@@ -133,3 +151,41 @@ textarea{
     height: 107px;
 }
 
+
+.raiting .content{
+    margin-top: 40px;
+    margin-left: 69px;
+    margin-right: 60px;
+}
+
+p{
+    margin: 0;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+input[type="range"]{
+    width: 500px;
+}
+
+.fl{
+    float: left;
+}
+
+.data-filling .content{
+    margin: 60px 60px;
+}
+
+section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 5px 30px;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    border: 5px dashed darkslategray;
+    border-radius: 40px;
+}

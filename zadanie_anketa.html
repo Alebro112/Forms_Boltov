@@ -68,6 +68,53 @@
                 </div>
             </div>
         </fieldset>
+
+        <fieldset class="raiting">
+            <legend>Оценка нашего заведения</legend>
+            <div class="content">
+                <div class="row">
+                    <p class="span fl">Дата и время посещения</p>
+                    <input type="datetime" class="date-input gray-shadow cyan " placeholder="mm/dd/yyyy  --:-- --"> 
+                </div>
+                <div class="row">
+                    <p class="span">Почему Вы выбрали наше заведение?</p><br>
+
+                    <input type="radio" name="why?" id=""><span class="radio-span">Недалеко от дома/работы</span><br>
+                    <input type="radio" name="why?" id=""><span class="radio-span">Увидел рекламу</span><br>
+                    <input type="radio" name="why?" id=""><span class="radio-span">Посоветовали</span><br>
+                    <input type="radio" name="why?" id=""><span class="radio-span">Соотношение цены и качества</span>
+                </div>
+
+                <div class="row">
+                    <p class="span">Как Вы оцениваете наше заведение? (по 5-ти бальной системе)</p>
+                    <input type="range" min="0" max="5" value="0">
+                </div>
+
+                <div class="row">
+                    <p class="span">Как Вы оцениваете наше заведение? (по 10-ти бальной системе)</p>
+                    <input type="range" min="0" max="10" value="0">
+                </div>
+
+                <div class="row">
+                    <p class="span">Вы будете рекомендоват наше щаведеие своим знакомым?</p>
+                    <input type="radio" name="yes" id=""><span class="radio-span">Да</span><br>
+                    <input type="radio" name="yes" id=""><span class="radio-span">Нет</span>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="data-filling">
+            <legend>Дата заполнения анкеты</legend>
+            <div class="content">
+                <span class="span">Выберите дату</span>
+                <input type="text" class="date-input cyan gray-shadow" placeholder="mm/dd/yyyy --:-- --">
+            </div>
+        </fieldset>
+
+        <section>
+            <button class="cyan">Отправить</button>
+            <button class="cyan">Очистить</button>
+        </section>
     </main>
 </body>
 </html>
